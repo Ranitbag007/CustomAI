@@ -1,2 +1,2 @@
-from model import CustomAI
-from config import CustomAIConfig
+from .model import CustomAI
+from .config import CustomAIConfig
