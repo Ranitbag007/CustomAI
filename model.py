@@ -2,7 +2,7 @@ from transformers import PreTrainedModel
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
-from config import CustomAIConfig
+from .config import CustomAIConfig
 batch_size = 4
 block_size = 128
 max_iters = 10
