@@ -19,7 +19,7 @@ PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {}
 
 class CustomAITokenizer(PreTrainedTokenizer):
     """
-    Construct a Yi tokenizer. Based on byte-level Byte-Pair-Encoding.
+    Construct a custom tokenizer. Based on byte-level Byte-Pair-Encoding.
     Args:
         vocab_file (`str`):
             Path to the vocabulary file.
