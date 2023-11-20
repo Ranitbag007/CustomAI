@@ -8,7 +8,7 @@ from transformers.utils import logging
 
 logger = logging.get_logger(__name__)
 
-VOCAB_FILES_NAMES = {"vocab_file": "https://huggingface.co/RANITBAG/CustomAItokenizer/resolve/main/Tokenizer.model"}
+VOCAB_FILES_NAMES = {"vocab_file": "https://huggingface.co/RANITBAG/scratch/resolve/main/Tokenizer.model"}
 
 PRETRAINED_VOCAB_FILES_MAP = {
     "vocab_file": {},
